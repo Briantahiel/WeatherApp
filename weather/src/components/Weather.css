@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../assets/landscape2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    
+}
+p:first-child{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+p:nth-child(3){
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+.container_top p:first-child{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.search{
+    position: relative;
+    top: 20px;
+    height: 100%;
+}
+
+.container{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.container_top{
+    margin-left: 10px;
+}
+.container_bottom{
+    margin: 0 10px 0 10px;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    border-radius: 30px;
+}
+.information div{
+    width: 100%;
+}
+input{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid gray;
+    outline: none;
+    display: flex;
+    margin: auto;
+    margin-bottom: 100px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.4;
+}
+::placeholder{
+    color: black;
+}
+
+
+
+
+
