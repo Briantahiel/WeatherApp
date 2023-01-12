@@ -6,4 +6,4 @@
 
 ° JAVASCRIPT
 
-° REACT
+° REACT.JS
